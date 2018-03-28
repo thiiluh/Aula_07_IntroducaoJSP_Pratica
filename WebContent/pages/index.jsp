@@ -4,20 +4,20 @@
 <%
 	List<Aluno> alunos = new ArrayList<Aluno>();
 	Aluno aluno = new Aluno();
-	aluno.setNome("marcelo");
-	aluno.setNota(5.3);
+	aluno.setNome("Thiago");
+	aluno.setNota(3);
 	
 	alunos.add(aluno);
 	
 	aluno = new Aluno();
-	aluno.setNome("joao");
-	aluno.setNota(4.3);
+	aluno.setNome("Luiz");
+	aluno.setNota(8);
 	
 	alunos.add(aluno);
 	
 	aluno = new Aluno();
-	aluno.setNome("Maria");
-	aluno.setNota(4.3);
+	aluno.setNome("Oliveira");
+	aluno.setNota(7);
 	
 	alunos.add(aluno);
 
@@ -26,7 +26,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>NOTAS</title>
 </head>
 <body>
 	<table>
